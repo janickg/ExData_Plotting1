@@ -14,3 +14,6 @@ Data<-c(Day1,Day2)
 
 # plot red histogram.
 hist(Data, main="Global Active Power", xlab="Global Active Power (kilowatts)", ylab="Frequency", col="red")
+
+dev.copy(png, file = "plot1.png")  ## Copy my plot to a PNG file
+dev.off()  ## Don't forget to close the PNG device!
