@@ -22,7 +22,7 @@ lines(DTime,Data$Sub_metering_3,col="blue")
 
 # Show legend top right
 legend("topright", legend = c("Sub_metering_1","Sub_metering_2","Sub_metering_3"),
-       col=c("black","red","blue"), lwd=1, cex=0.8)
+       col=c("black","red","blue"),lwd=0.2,cex=0.5)
 
 # Copy my plot to a PNG file
 dev.copy(png, file = "plot3.png")
